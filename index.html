@@ -22,7 +22,7 @@
 
       .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
         grid-template-rows: 1fr; /* Single row that will contain nested grid */
         gap: 10px;
         height: 100dvh;
@@ -56,6 +56,15 @@
     <div class="grid-container">
       <!-- First Column -->
       <!-- Second Column -->
+      <div class="column first-column">
+        <div class="grid-item">
+          <iframe
+            src="https://web.whatsapp.com/"
+            title="Pomofocus Pomodoro Timer"
+            seamless="seamless"
+          ></iframe>
+        </div>
+      </div>
       <div class="column first-column">
         <div class="grid-item">
           <iframe
